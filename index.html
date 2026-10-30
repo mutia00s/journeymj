@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f5f0">
+
+  <title>A Little Chapter of TKA ♡</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <!-- BACKGROUND MUSIC -->
+  <div class="music-dock" id="musicDock">
+    <button
+      class="music-toggle"
+      id="musicToggle"
+      aria-label="Putar atau jeda musik"
+    >♫</button>
+
+    <div class="music-meta">
+      <span class="eyebrow">klik here</span>
+      <strong id="musicStatus">a song for you</strong>
+    </div>
+
+    <audio id="backgroundMusic" loop preload="none">
+      <source src="assets/music/Bleachers.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+
+  <main>
+
+    <!-- COVER SCREEN -->
+    <section class="cover-screen active" id="cover">
+
+      <div class="cover-sparkle sparkle-a">✦</div>
+      <div class="cover-sparkle sparkle-b">✧</div>
+
+      <div class="cover-card">
+
+        <span class="tiny-label">A SMALL GIFT FOR JEC</span>
+
+        <div class="cover-flower" aria-hidden="true">✿</div>
+
+        <p class="script-line">for the memories we made...</p>
+
+        <h1>A Little<br><em>Chapter of TKA</em></h1>
+
+        <p class="cover-description">
+          a little place for our laughs, our chaos, and the chapter we survived together.
+        </p>
+
+        <button class="primary-button" id="openJournal">
+          open our TKA world <span>♡</span>
+        </button>
+
+        <p class="cover-footnote">
+          made with a little chaos & lots of memories
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- JOURNAL -->
+    <section class="journal-screen" id="journal" aria-label="Jurnal kenangan">
+
+      <!-- HEADER -->
+      <header class="site-header">
+
+        <a class="wordmark" href="#journal" id="homeLink">
+          a little chapter <span>♡</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Buka navigasi"
+        >☰</button>
+
+        <nav class="chapter-nav" id="chapterNav">
+          <button data-go="timeline">timeline</button>
+          <button data-go="hall">hall of fame</button>
+          <button data-go="archive">memories</button>
+          <button data-go="song">song</button>
+          <button data-go="letter">letter</button>
+        </nav>
+
+      </header>
+
+      <div class="chapter-progress">
+        <span id="progressBar"></span>
+      </div>
+
+
+      <!-- INTRO -->
+      <section class="chapter intro-chapter" id="intro">
+
+        <div class="intro-copy">
+
+          <span class="eyebrow">A NOTE BEFORE YOU BEGIN</span>
+
+          <h2>hey, <em>you.</em></h2>
+
+          <p>
+            We made it through TKA. Somewhere between the stress,
+            the jokes, and all the little moments, we made memories
+            worth keeping.
+          </p>
+
+          <p class="script-line">
+            so here's a tiny time capsule, just for us.
+          </p>
+
+          <button class="text-button" data-go="timeline">
+            let's look back <span>↗</span>
+          </button>
+
+        </div>
+
+        <div class="intro-art">
+
+          <div class="sticker sticker-star">✦</div>
+
+          <div class="mini-polaroid tilt-left">
+
+            <!-- FOTO INTRO -->
+            <div class="photo-placeholder photo-blue">
+              <img
+                src="assets/images/foto1 (2).jpg"
+                alt="our little memories"
+              >
+            </div>
+
+            <p>TKA, Please Don't Call</p>
+
+          </div>
+
+          <div class="sticker sticker-flower">✿</div>
+
+        </div>
+
+      </section>
+
+
+      <!-- TIMELINE -->
+      <section class="chapter" id="timeline">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">CHAPTER 01 · THE JOURNEY</span>
+
+          <h2>The TKA <em>timeline</em></h2>
+
+          <p>
+            A few little moments from the chaos we somehow made it through.
+          </p>
+
+        </div>
+
+        <div class="timeline-list">
+
+          <article class="timeline-item">
+
+            <span class="timeline-dot">01</span>
+
+            <div class="timeline-card">
+
+              <span class="date-label">THE BEGINNING</span>
+
+              <h3>“we still have time...”</h3>
+
+              <p>
+                Jelang beberapa bulan bahkan minggu bahkan hari sebelum TKA,
+                kita masih ngerasa ada waktu buat belajar dan persiapan TKA,
+                jadi kita belum terlalu mikirin TKA tapi engga juga yang
+                santai banget si...soalnya semuanya salah smansala.
+              </p>
+
+              <span class="script-line">little did we know ✧</span>
+
+            </div>
+
+          </article>
+
+
+          <article class="timeline-item">
+
+            <span class="timeline-dot">02</span>
+
+            <div class="timeline-card">
+
+              <span class="date-label">THE PREPARATION</span>
+
+              <h3>study, panic, repeat.</h3>
+
+              <p>
+                Persiapan kita buat belajar TKA itu dari pengayaan di sekolah,
+                sosmed, dan aplikasi belajar. Pas udah mepet banget TKA kita
+                bener-bener belajar sampai burn out...latsol terus, TO,
+                dan memahami materi walau ta paham paham.
+              </p>
+
+              <span class="script-line">one day at a time ♡</span>
+
+            </div>
+
+          </article>
+
+
+          <article class="timeline-item">
+
+            <span class="timeline-dot">03</span>
+
+            <div class="timeline-card">
+
+              <span class="date-label">THE BIG DAY</span>
+
+              <h3>deep breaths.</h3>
+
+              <p>
+                Hari buat menghadapi TKA dah tiba berasa cepet banget,
+                hari pertama kita ngerjain B.INDO yang maybe menurut kita
+                lumayan gampang, hari kedua kita ngerjain B.INGGRIS jujur
+                jawabannya ngecoh banget, hari ketiga kita ngerjain MATWA
+                mapel nyawit membuat kita berdua kehilangan kesadaran untuk
+                bernapas, hari keempat atau last day kita ngerjain mapel
+                pilihan yaitu mtk tl dan fisika susah dan kurang waktunya
+                jujur tapi soalnya sesuai sama kisi-kisi dan to.
+              </p>
+
+              <span class="script-line">proud of us.</span>
+
+            </div>
+
+          </article>
+
+
+          <article class="timeline-item">
+
+            <span class="timeline-dot">04</span>
+
+            <div class="timeline-card">
+
+              <span class="date-label">AFTER TKA</span>
+
+              <h3>and... we made it!</h3>
+
+              <p>
+                Finally TKA done, kita berharap hasilnya memuaskan dan
+                tidak terlalu mengecewakan walaupun jawaban kita banyak
+                nyawit sama nembaknya ahahaha. Yang penting TKA selesai
+                dan time to rest.
+              </p>
+
+              <span class="script-line">we really did that ✿</span>
+
+            </div>
+
+          </article>
+
+        </div>
+
+        <div class="chapter-actions">
+          <button class="soft-button" data-go="hall">
+            next: the chaos →
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- HALL OF FAME -->
+      <section class="chapter" id="hall">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">CHAPTER 02 · THE CHAOS</span>
+
+          <h2>TKA Hall <em>of Fame</em></h2>
+
+          <p>What we experienced during TKA</p>
+
+        </div>
+
+        <div class="award-grid">
+
+          <button
+            class="award-card blue-card"
+            data-title="Nge-blank"
+            data-message="Waktu soal kelihatan gampang, tapi otak gabisa diajak kerjasama. Jadinya ngestuck terus ujung-ujungnya nembak."
+          >
+            <span class="award-icon">🧠</span>
+            <span class="award-label">THE CLASSIC</span>
+            <strong>Nge-<br>blank</strong>
+            <span class="card-hint">klik untuk buka ↗</span>
+          </button>
+
+
+          <button
+            class="award-card pink-card"
+            data-title="Burn Out"
+            data-message="Buat pikiran yang datang sebelum TKA, saat TKA, dan bahkan setelah TKA selesai. Dedikasi overthinking dan burn out: 10000/10."
+          >
+            <span class="award-icon">☁️</span>
+            <span class="award-label">THE DRAMA</span>
+            <strong>Burn<br>Out</strong>
+            <span class="card-hint">klik untuk buka ↗</span>
+          </button>
+
+
+          <button
+            class="award-card sage-card"
+            data-title="Absolute Cinema"
+            data-message="Buat  kita yang selalu misuh cape, maw menyerah dan pasrah bahkan nangis, but tetep mau belajar walaupun udah cape banget. This one is actually deserved."
+          >
+            <span class="award-icon">🏆</span>
+            <span class="award-label">THE REAL WINNER</span>
+            <strong>Absolute<br>Cinema</strong>
+            <span class="card-hint">klik untuk buka ↗</span>
+          </button>
+
+        </div>
+
+        <p class="small-note">MJ made it</p>
+
+        <div class="chapter-actions">
+          <button class="soft-button" data-go="archive">
+            next: our memories →
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- OUR LITTLE ARCHIVE -->
+      <section class="chapter" id="archive">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">CHAPTER 03 · THE KEEPSAKES</span>
+
+          <h2>Our Little <em>Archive</em></h2>
+
+          <p>
+            Some ordinary moments turn into memories without us even noticing. Klik fotonya yah.
+          </p>
+
+        </div>
+
+        <div class="memory-grid">
+
+          <!-- FOTO 1 -->
+          <button
+            class="memory-card memory-one"
+            data-title="a little moment"
+            data-message="Saluran whatsapp kita buat belajar, mengejar ptn, dan sharing materi. Yang terpenting ini ch jadi saksi bisu kita misuh-misuhin tka juga:V"
+          >
+
+            <span class="memory-image">
+              <img
+                src="assets/images/foto3.jpg"
+                alt="channel MJ"
+              >
+            </span>
+
+            <span class="memory-caption">channel MJ ♡</span>
+
+          </button>
+
+
+          <!-- FOTO 2 -->
+          <button
+            class="memory-card memory-two"
+            data-title="the random days"
+            data-message="Ini hasil Try out terakhir kita, di sini nilai kita engga terlalu jauh berbeda aahahaha. Tapi yang penting kita udah berusaha dan semoga hasilnya nanti tidak terlalu mmengecewakan"
+          >
+
+            <span class="memory-image">
+              <img
+                src="assets/images/foto2 (2).jpg"
+                alt="Hasil TO"
+              >
+            </span>
+
+            <span class="memory-caption">Hasil TO ✿</span>
+
+          </button>
+
+
+          <!-- FOTO 3 -->
+          <button
+            class="memory-card memory-three"
+            data-title="one for the books"
+            data-message="Laporan setelah TKA day 1 sampai TKA last day, cape banget tapi we did it."
+          >
+
+            <span class="memory-image">
+              <img
+                src="assets/images/foto4.jpg"
+                alt="TKA selesai"
+              >
+            </span>
+
+            <span class="memory-caption">DONE ✧</span>
+
+          </button>
+
+        </div>
+
+        <p class="small-note">yeaayy!</p>
+
+        <div class="chapter-actions">
+          <button class="soft-button" data-go="song">
+            next: press play →
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- SONG -->
+      <section class="chapter song-chapter" id="song">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">CHAPTER 04 · THE SOUNDTRACK</span>
+
+          <h2>A Little Song <em>for You</em></h2>
+
+          <p>
+            Some songs sound like a memory. This one is for this little chapter of ours.
+          </p>
+
+        </div>
+
+        <div class="player-card">
+
+          <div class="album-art" id="albumArt">
+            <span>♫</span>
+            <small></small>
+          </div>
+
+          <div class="player-info">
+
+            <span class="eyebrow">A SONG I PICKED FOR YOU</span>
+
+            <h3 id="songTitle">Besok Kita Pergi Makan</h3>
+
+            <p id="songArtist">Sal Priadi</p>
+
+            <div class="player-controls">
+
+              <button
+                class="round-play"
+                id="songToggle"
+                aria-label="Putar atau jeda lagu"
+              >▶</button>
+
+              <div class="track-line">
+                <span id="trackProgress"></span>
+              </div>
+
+              <span class="music-note">♫</span>
+
+            </div>
+
+            <p class="player-caption">
+              “I hope this song reminds you of something have been through ”
+            </p>
+
+          </div>
+
+          <!-- FILE LAGU -->
+          <audio id="specialSong" preload="metadata">
+            <source
+              src="assets/music/SalPriadi.mp3"
+              type="audio/mpeg"
+            >
+            Browser kamu tidak mendukung pemutar audio.
+          </audio>
+
+        </div>
+
+        <div class="song-message">
+
+          <span class="script-line">why this song?</span>
+
+          <p>
+            “kata kamu lagu ini relate banget sama kita waktu lagi pusing TKA,
+            and some people say this song makes them feel like they're being
+            hugged. i hope this song can hug u as comfortably as possible as
+            a reward for the journey, achievements, and efforts you've made jec.”
+          </p>
+
+        </div>
+
+        <p class="small-note"><code></code>,<code></code>.</p>
+
+        <div class="chapter-actions">
+          <button class="soft-button" data-go="letter">
+            next: a little letter →
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- LETTER -->
+      <section class="chapter letter-chapter" id="letter">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">CHAPTER 05 · SOMETHING FROM ME</span>
+
+          <h2>A Letter <em>for You</em></h2>
+
+          <p>
+            A tiny letter for someone who was part of this chapter.
+          </p>
+
+        </div>
+
+        <button
+          class="envelope"
+          id="openLetter"
+          aria-label="Buka surat"
+        >
+
+          <span class="envelope-stamp">for jesicca</span>
+
+          <span class="envelope-flap"></span>
+
+          <span class="envelope-body">tap to open</span>
+
+        </button>
+
+        <p class="script-line letter-hint">
+          psst... this one's just for u
+        </p>
+
+        <div class="letter-modal" id="letterModal" aria-hidden="true">
+
+          <div class="letter-paper">
+
+            <button
+              class="modal-close"
+              id="closeLetter"
+              aria-label="Tutup surat"
+            >×</button>
+
+            <span class="script-line">dear you,</span>
+
+            <p>so, we finally made it through TKA.</p>
+
+            <p>
+              Life after TKA, yang sebelumnya kita setiap malem belajar,
+              ngeluh cape, bingung, latsol dan to walaupun to nya engga
+              nyampe kepala 4:b tapi kamu dan aku berhasil buat melewatinya
+              walaupun sempat dibuat nangis sama TKA hahahaha, proud of me n jec!.
+            </p>
+
+            <p>
+              THANKKKK YOUUU SM udah jadi temen belajar aku buat melewati
+              masa-masa shibal TKA, makasih banyak udah mau sharing materi-materi
+              dan belajar bareng selama TKA<3.
+            </p>
+
+            <p>
+              TKA selesai, waktunya istirahat dengan damai:D biar ngga burn
+              out lagi, jangan lupa self reward dan hepi-hepinya. setelah ini
+              kita masih ada UTBK, gaskan bantai-bantai wangsit, latsol dan to
+              lagi. #LockInSNBT semoga aku dan kamu dapat ptn yang kita mau
+              di 2027 nanti, big love for u jec!.
+            </p>
+
+            <p class="script-line sign-off">
+              proud of us, always. ♡
+            </p>
+
+            <span class="letter-footer">
+              a little note, just for you
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="chapter-actions">
+          <button class="soft-button" data-go="next">
+            next: our next chapter →
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- NEXT CHAPTER -->
+      <section class="chapter next-chapter" id="next">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">CHAPTER 06 · WHAT COMES NEXT</span>
+
+          <h2>Our Next <em>Chapter</em></h2>
+
+          <p>
+            TKA is one chapter. There are still so many pages left to write.
+          </p>
+
+        </div>
+
+        <div class="wish-grid">
+
+          <article class="wish-card">
+
+            <span>01</span>
+
+            <div>
+              <h3>for your future self</h3>
+
+              <p>
+                i hope ur happy and always proud of yourself and living the life you've always dreamed of.
+              </p>
+            </div>
+
+            <span class="wish-flower">✿</span>
+
+          </article>
+
+
+          <article class="wish-card">
+
+            <span>02</span>
+
+            <div>
+              <h3>for the tired days</h3>
+
+              <p>
+                no matter where life takes u, never forget how far you've come.
+              </p>
+            </div>
+
+            <span class="wish-flower">☁</span>
+
+          </article>
+
+
+          <article class="wish-card">
+
+            <span>03</span>
+
+            <div>
+              <h3>for everything ahead</h3>
+
+              <p>
+                hope life brings u beautiful surprises, endless hapiines, and countless reasons to smile.
+              </p>
+            </div>
+
+            <span class="wish-flower">✧</span>
+
+          </article>
+
+        </div>
+
+        <div class="chapter-actions">
+          <button class="soft-button" data-go="final">
+            one last thing →
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- FINAL PAGE -->
+      <section class="chapter final-chapter" id="final">
+
+        <div class="final-decoration">✿</div>
+
+        <span class="eyebrow">THE LAST PAGE</span>
+
+        <h2>
+          and that's a wrap<br>
+          on this little <em>chapter.</em>
+        </h2>
+
+        <p>
+          Whatever comes next, I'm glad this chapter included you.
+        </p>
+
+        <button class="primary-button" id="finalSurprise">
+          one last surprise ♡
+        </button>
+
+        <div class="final-message" id="finalMessage" hidden>
+
+          <span class="script-line">just so you know...</span>
+
+          <p>
+            I'm proud of u jec. Not just because TKA is over,
+            but because you kept going. Thanks for being part of
+            this little story. Here's to the memories we haven't
+            made yet. ♡
+          </p>
+
+          <span class="final-sparkles">✧ ✦ ✿ ✦ ✧</span>
+
+        </div>
+
+        <button class="text-button replay-button" id="replay">
+          start the story again ↺
+        </button>
+
+        <footer>
+          made with love, for a chapter worth remembering ♡
+        </footer>
+
+      </section>
+
+
+      <footer class="site-footer">
+        <span>a little chapter of us</span>
+        <span>made with ♡</span>
+      </footer>
+
+    </section>
+
+  </main>
+
+
+  <!-- MEMORY POPUP -->
+  <div class="content-modal" id="contentModal" aria-hidden="true">
+
+    <div class="content-modal-card">
+
+      <button
+        class="modal-close"
+        id="closeContentModal"
+        aria-label="Tutup"
+      >×</button>
+
+      <span class="script-line">a tiny memory</span>
+
+      <h3 id="contentModalTitle">A little moment</h3>
+
+      <p id="contentModalText"></p>
+
+      <button class="soft-button" id="okayModal">
+        close with a smile ♡
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <div class="toast" id="toast" role="status"></div>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
